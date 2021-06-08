@@ -48,3 +48,6 @@ $ npm run start:dev
 
 ## Mail account for tests
 http://ethereal.email/create
+
+## View Queue
+http://localhost:3000/admin/queues/
