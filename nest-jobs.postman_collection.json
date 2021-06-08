@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "601bc5a2-bbc3-4b54-b44e-b09fae2ccc0a",
+		"name": "nest-jobs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create-user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"odeivdson@gmail.com\",\n\t\"name\": \"Deivdson Oliveira\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/create-user",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create-user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
